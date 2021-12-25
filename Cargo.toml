@@ -1,0 +1,18 @@
+[package]
+name = "lesya"
+version = "0.1.0"
+edition = "2021"
+authors = ["Vedran Vinko <vinkovedran@gmail.com>"]
+description = """
+A small LISP written in Rust, for fun
+"""
+documentation = ""
+homepage = ""
+repository = ""
+keywords = ["lisp", "pl", "rust"]
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rustyline = "9.1.1"
